@@ -1,11 +1,11 @@
-import GithubComponenet from "./components/github";
+import { GithubInfoBox } from "./components/github";
 
 export default function Widgets() {
     return (
 
         <section className="">
 
-            <GithubComponenet />
+            <GithubInfoBox />
             
         </section>
         

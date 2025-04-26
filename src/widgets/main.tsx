@@ -6,7 +6,9 @@ import Widgets from './widgets';
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
       
-    <Widgets />
+      <section className='mt-10'>
+        <Widgets />
+      </section>
           
   </StrictMode>,
 )
