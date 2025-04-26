@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "DevTools Extenstion",
+    "version": "1.0",
+    "description": "An extension created for developers!",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+    },
+    "permissions": [],
+    "background": {
+      "service_worker": "background.js",
+      "type": "module"
+    } ,
+    "chrome_url_overrides": {
+        "newtab": "widgets.html"
+    }
+  }
